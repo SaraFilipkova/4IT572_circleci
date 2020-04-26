@@ -15,7 +15,7 @@ jobs:
         root: .
         paths:
           - .
- deploy: 
+deploy: 
    <<: *vse
    steps: 
         - attach_workspace:
